@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# IDE
+.vscode/
+
+# Monitoring secrets
+k8s/platform/monitoring/values.private.yaml
