@@ -34,7 +34,7 @@ Fast-World/
 ├── requirements.txt
 └── k8s/
     ├── apps/
-    │   └── fast-api/         # deployment, service, gateway, httproute
+    │   └── fast-api/         # deployment, service, servicemonitor, gateway, httproute
     └── platform/
         ├── gateway/          # gatewayclass
         └── monitoring/       # prometheus + grafana helm values
