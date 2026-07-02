@@ -19,7 +19,7 @@ spec:
         app: fast-api
     spec:
       containers:
-      - image: 192.168.1.101:5000/fast-api:v1
+      - image: 192.168.1.101:5000/fast-api:v2
         name: fast-api
         resources:
           requests:
