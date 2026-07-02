@@ -1,0 +1,7 @@
+grafana:
+  service:
+    type: LoadBalancer
+
+prometheus:
+  prometheusSpec:
+    retention: 7d
